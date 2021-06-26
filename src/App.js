@@ -1,12 +1,11 @@
-import Header from './components/layout/Header';
-import Footer from './components/layout/Footer';
-import Content from './components/home/Home';
+import Footer from './components/Footer';
+import Home from './pages/home';
 
 function App() {
   return (
     <>
-      <Header />
-      <Content />
+      <Home />
+
       <Footer />
     </>
   );
